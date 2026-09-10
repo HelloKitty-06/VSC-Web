@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- 声明文档类型为 HTML5 -->
+<html lang="zh-CN">
+<head>
+    <!-- 设置编码为 UTF-8，保证中文正常显示 -->
+    <meta charset="UTF-8">
+    <!-- 设置视口，保证页面在手机等小屏设备上正常缩放显示 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网页标题（显示在浏览器标签页上） -->
+    <title>个人名片</title>
+    <!-- 引入外部 CSS 文件，实现 HTML 结构与 CSS 样式分离 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== 名片卡片：页面唯一的主要内容区域 ========== -->
+    <main class="card">
+
+        <!-- 圆形头像（图片通过 CSS 的 border-radius 设置为圆形） -->
+        <img class="avatar" src="avatar.svg" alt="个人头像">
+
+        <!-- 姓名 -->
+        <h1 class="name">张小明</h1>
+
+        <!-- 职位 -->
+        <p class="job">前端开发工程师</p>
+
+        <!-- 姓名与联系方式之间的细分隔线 -->
+        <hr class="divider">
+
+        <!-- 联系方式列表：电话 / 邮箱 / 所在地 -->
+        <ul class="contact">
+            <li><span class="icon">📱</span>138-0000-0000</li>
+            <li><span class="icon">📧</span>xiaoming@example.com</li>
+            <li><span class="icon">📍</span>上海市 · 浦东新区</li>
+        </ul>
+
+    </main>
+
+</body>
+</html>
